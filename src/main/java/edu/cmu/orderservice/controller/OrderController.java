@@ -31,7 +31,7 @@ public class OrderController implements OrderConstant {
         Timestamp nowTime = new Timestamp(System.currentTimeMillis());
         Calendar cal = Calendar.getInstance();
         cal.setTimeInMillis(nowTime.getTime());
-        cal.add(Calendar.MINUTE, 1);
+        cal.add(Calendar.MINUTE, 30);
         Timestamp expireTime = new Timestamp(cal.getTimeInMillis());
 
         order.setCreateTime(nowTime);
