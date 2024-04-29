@@ -11,6 +11,6 @@ public class Bid {
     // The price serves as observee's internal status
     private double price;
 
-    // The bidUserList serves as an observer list
+    // The bidUserList serves as an observer list, separated by ","
     private String bidUserList;
 }
